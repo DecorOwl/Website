@@ -593,6 +593,13 @@ hr {
 	max-width: 100%;
 }
 
+.card-row .card-container-2 {
+	max-width: 50%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 .card-row .card-container {
 	max-width: 33.33%;
 	float: left;
@@ -1437,11 +1444,10 @@ ul#nav li.current a:after {
 /* 09. =services
 /* =================================================================== */
 
-#services {
-	background: #12151B;
+#how-works {
+	background: #F9F3ED;
 	padding-top: 120px;
 	padding-bottom: 120px;
-	border-bottom: 1px solid #15191d;
 }
 
 .service-list {
