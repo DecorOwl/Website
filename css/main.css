@@ -645,7 +645,7 @@ header.opaque {
 
 /* header logo */
 header .logo {
-	background: #FFFFFF;
+	background: transparent;
 	float: left;
 	width: auto;
 	margin-left: 15px;
@@ -691,7 +691,7 @@ header .header-social li {
 }
 
 header .header-social li a {
-	color: #10455B;
+	color: #fffff;
 }
 
 header .header-social li a:hover {
@@ -975,7 +975,6 @@ ul#nav li.current a:after {
 	width: 100%;
 	text-align: left;
 	position: relative;
-	border-bottom: 1px solid #15191d;
 }
 
 .hero-content {
