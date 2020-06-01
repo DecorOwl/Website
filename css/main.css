@@ -654,7 +654,7 @@ header .logo {
 	
 	/* add position relative since z-index only applies to  
 	elements that have been given an explicit position */
-	position: relative;
+	position: left;
 }
 
 header .logo a {
@@ -665,6 +665,7 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
+	position:left;
 	width: 114px;
 	height: 66px;
 	background: url("../images/logoK@2x.png") no-repeat center;
@@ -738,7 +739,7 @@ header .header-social li a:hover {
 	font: 13px "raleway-heavy", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
-	float: left;  
+	float: right;  
 }
 
 /* hide toggle button */
@@ -750,7 +751,6 @@ ul#nav {
 	min-height: 66px;
 	display: inline-block;
 	width: auto;  
-
 	/* left align the menu */
 	text-align: left;
 }
