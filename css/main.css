@@ -724,6 +724,11 @@ header .header-social li a:hover {
 
 }
 
+div.Android
+{
+	position:relative;
+}
+
 /* primary navigation
 --------------------------------------------------------------------- */
 #nav-wrap,
@@ -2611,4 +2616,34 @@ footer .social-links li:first-child {
 	margin-left: 6px;
 	position: relative;
 	right: -5px;
+}
+
+#android {
+	position: relative;
+}
+
+#android a {
+	text-decoration: none;
+	border: 0 none;
+	display: block;
+	height: 54px;
+	width: 300px;
+	background: #e64e04;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 3px;
+	font: 12px/54px "raleway-heavy", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#android a:hover {
+	background: #fdc501;
+	color: #000000;
 }
