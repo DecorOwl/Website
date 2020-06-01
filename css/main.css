@@ -355,7 +355,7 @@ img.pull-left {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #0F1215;
+	background: #F9F3ED;
 	z-index: 9999999;
 	height: 100%;
 	width: 100%;
@@ -645,7 +645,7 @@ header.opaque {
 
 /* header logo */
 header .logo {
-	background: #F9F3ED;
+	background: #FFFFFF;
 	float: left;
 	width: auto;
 	margin-left: 15px;
@@ -691,7 +691,7 @@ header .header-social li {
 }
 
 header .header-social li a {
-	color: #FFFFFF;
+	color: #10455B;
 }
 
 header .header-social li a:hover {
@@ -967,7 +967,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #hero {
-	background: #0F1215 url(../images/hero-bg.jpg) no-repeat center;
+	background: #F9F3ED url(../images/wave.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1293,7 +1293,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #portfolio {
-	background: #111417;
+	background: #F9F3ED;
 	padding-top: 120px;
 	border-bottom: 1px solid #15191d;  
 }
@@ -2180,7 +2180,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #contact {
-	background: #12151B;
+	background: #F9F3ED;
 	padding-top: 120px;
 	padding-bottom: 138px;
 	overflow: hidden;
