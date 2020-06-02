@@ -41,7 +41,7 @@ body {
 }
 
 body {
-	background: #0F1215;
+	background: #10455B;
 	font: 16px/30px "merriweather-regular", serif;
 	font-weight: normal;
 	color: #575859;
@@ -2227,7 +2227,7 @@ footer {
 	padding-top: 60px;
 	padding-bottom: 24px;
 	position: relative;
-	color: rgba(255, 255, 255, 0.15);
+    color: #FFFFFF;
 }
 
 footer .content {
@@ -2263,12 +2263,12 @@ footer .info {
 
 footer .footer-logo {
 	width: 100px;
-	height: 23px;
+	height: 60px;
 	background: url("../images/logoW@2x.png") no-repeat center;
-	background-size: 100px 23px;
+	background-size: 100px 60px;
 	margin: 0 auto 21px;
 	display: block;
-	filter: alpha(opacity=10);
+	filter: alpha(opacity=30);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 	opacity: 0.1;
 	zoom: 1;
