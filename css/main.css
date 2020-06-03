@@ -2262,10 +2262,10 @@ footer .info {
 }
 
 footer .footer-logo {
-	width: 100px;
+	width: 190px;
 	height: 60px;
-	background: url("../images/logoW@2x.png") no-repeat center;
-	background-size: 100px 60px;
+	background: url("../images/Logo&Name.png") no-repeat center;
+	background-size: 190px 60px;
 	margin: 0 auto 21px;
 	display: block;
 	filter: alpha(opacity=30);
