@@ -41,7 +41,7 @@ body {
 }
 
 body {
-	background: #F9F3ED url(../images/wave_Footer.png) no-repeat center;r;
+	background: #10455B url(../images/wave_Footer.png) no-repeat center;
 	font: 16px/30px "merriweather-regular", serif;
 	font-weight: normal;
 	color: #575859;
@@ -1110,7 +1110,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #hero {
-	background: #F9F3ED url(../images/wave.png) no-repeat center;
+	background: #10455B url(../images/wave.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
