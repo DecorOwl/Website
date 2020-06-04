@@ -74,7 +74,7 @@ h4,
 h5,
 h6 {
 	font-family: "raleway-heavy", sans-serif;
-	color: #FFFFFF;
+	color: black;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin: 18px 0 15px;
@@ -1145,7 +1145,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #hero {
-	background: #F9F3ED;
+	background: #ffaf20;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2004,7 +2004,7 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #contact {
-	background: #F9F3ED;
+	background: #302824;
 	padding-top: 120px;
 	padding-bottom: 138px;
 	overflow: hidden;
@@ -2117,7 +2117,7 @@ input[type="email"],
 }
 
 #contact button.submitform {
-	font: 15px/30px "raleway-heavy", sans-serif;
+	font: 15px/30px "raleway-heavy", sans-serif;	
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	height: 60px;
