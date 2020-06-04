@@ -391,6 +391,20 @@ background: #10455B url(../images/wave.png) no-repeat center;
 	position: relative;
 }
 
+#Latter
+{
+  background:#F9F3ED;  
+}
+ 
+#Latter h1{
+	align:center;
+	color:red;
+	 
+ }
+ 
+ #Latter h3{
+	 color:blue;
+ }
 
 /*
 /* 03. =Preloader
@@ -2076,7 +2090,7 @@ input[type="email"],
 /* 12. =contact
 /* =================================================================== */
 
-#contact {
+#contact{
 	background: #F9F3ED;
 	padding-top: 120px;
 	padding-bottom: 138px;
