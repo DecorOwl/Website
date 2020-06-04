@@ -343,7 +343,26 @@ img.pull-left {
 	}
 
 }
+/*
+/* Start page You tube video and all
+/*===================================================================*/
+#home{
+background: #10455B url(../images/wave.png) no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	min-height: 630px;
+	width: 100%;
+	text-align: left;
+	position: relative;
+}
 
+#home-slider {
+	margin: 120px 0 54px;
+}
+
+
+/*Start page end */
 
 /*
 /* 03. =Preloader
@@ -1110,11 +1129,11 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #hero {
-	background: #10455B url(../images/wave.png) no-repeat center;
+	background: #F9F3ED;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	height:100%;
+	min-height: 630px;
 	width: 100%;
 	text-align: left;
 	position: relative;
@@ -1141,7 +1160,7 @@ ul#nav li.current a:after {
 	padding-bottom: 24px;
 	color: white;
 	text-shadow: 0 1px 20px rgba(0, 0, 0, 0.6);
-	position: relative;
+	position: relative;    
 
 	/* for css animations */
 	filter: alpha(opacity=0);
@@ -1166,7 +1185,7 @@ ul#nav li.current a:after {
 	color: rgba(255, 255, 255, 0.7);
 	text-shadow: 0 1px 15px rgba(0, 0, 0, 0.5);
 	width: 85%;
-	margin-top: 24px;
+	margin-top: 24px;    
 
 	/* for css animations */
 	filter: alpha(opacity=0);
@@ -1196,7 +1215,7 @@ ul#nav li.current a:after {
 	zoom: 1;
 }
 
-/* media queries:
+/* media queries:  
 /* #hero / .hero-contert / #hero-slider */
 
 @media only screen and (max-width:1200px) {
@@ -1528,10 +1547,9 @@ ul#nav li.current a:after {
 /* =================================================================== */
 
 #about {
-	background: #111417;
+	background: #F9F3ED;
 	padding-top: 120px;
 	padding-bottom: 120px;
-	border-bottom: 1px solid #15191d;
 }
 
 #about h3 {
