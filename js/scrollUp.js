@@ -1,12 +1,7 @@
 /*----------------------------------------------------*/
 /*Scroll Up floationg button*/
 /*----------------------------------------------------*/
-/*const btnScrollToTop=document.querySelector("scrollUp");
-btnScrollToTop.addEventListener("click",function()
-{
-	window.scrollTo(0, 0); 
-	$("html, body").animate({scrollTop:0},"slow");
-});*/
+
 var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
@@ -22,6 +17,7 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-	document.body.scrollTop = 0;
-	document.documentElement.scrollTop = 0;
+	//document.body.scrollTop = 0;
+	//document.documentElement.scrollTop = 0;
+	$("html, body").animate({scrollTop:0},"slow");
 }
