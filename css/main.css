@@ -401,10 +401,10 @@ background: #10455B url(../images/wave.png) no-repeat center;
  
 #Latter h1{
 	position:absolute;
-	left: 50%;
+	left: 53%;
 	color:black;
-	transform: translateX(-155%) translateY(50%);
-	font-family:Times, Times New Roman, serif;	
+	transform: translateX(-155%) translateY(20%);
+	font: 49px/1.3 "raleway-bold", sans-serif;	
 	line-height:1.6;
 	font-size:50px;
  }
@@ -413,7 +413,7 @@ background: #10455B url(../images/wave.png) no-repeat center;
 	position:absolute;
 	left: 50%;
 	color:#5A5151;
-	transform: translateX(-50%) translateY(35%);
+	transform: translateX(-50%) translateY(25%);
 	font-family:Courier;
 	line-height:1.6;
  }
@@ -423,7 +423,7 @@ background: #10455B url(../images/wave.png) no-repeat center;
 	 position:absolute;
 	left: 50%;
 	color:#5A5151;
-	transform: translateX(-290%) translateY(1400%);
+	transform: translateX(-290%) translateY(1550%);
 	font-family:Brush Script MT, Brush Script Std, cursive;
 	line-height:1.6;
  }
