@@ -347,7 +347,7 @@ img.pull-left {
 /* Start page You tube video and all
 /*===================================================================*/
 #home{
-background: #10455B url(../images/wave.png) no-repeat center;
+	background: #10455B url(../images/wave.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -382,7 +382,7 @@ background: #10455B url(../images/wave.png) no-repeat center;
 */
 
 #AboutHome{
-	background: #10455B url(../images/Wave-About-us1.png) no-repeat center;
+	background: #10455B url(../images/Wave-About-us2.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2051,7 +2051,7 @@ ul#nav li.current a:after {
  */
  
  #testy {
-	background: #FFAF20;
+	background: #f9f3ed;
 	padding-top: 120px;
 	padding-bottom: 138px;
 	overflow: hidden;
@@ -2112,7 +2112,7 @@ input[type="email"],
 /* 12. =contact
 /* =================================================================== */
 #contact{
-	background: #F9F3ED;
+	background: #10455B url(../images/wave_Footer.png) no-repeat center;
 	padding-top: 120px;
 	padding-bottom: 138px;
 	overflow: hidden;
