@@ -377,6 +377,7 @@ background: #10455B url(../images/wave.png) no-repeat center;
 	}
 /*Start page end */
 
+
 /* Start page of ABout Us
 */
 
@@ -2509,6 +2510,27 @@ footer .social-links li:first-child {
 	right: -5px;
 }
 
+
+/* Scroll Up Btn*/
+
+#myBtn {
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	width:30px;
+	height:30px;
+	border-radius:100%;
+	background:white url(../images/slide-up-52.png) no-repeat center;
+	box-shadow:0 0 10px rgba(0,0,0,0.25);	
+	color:black;
+	outline:none;
+}
+
+#myBtn:hover {
+  background:#FFAF20 url(../images/slide-up-52.png) no-repeat center;;
+}
+
+/*scroll Up Btn End*/
 #android {
 	position: relative;
 }
