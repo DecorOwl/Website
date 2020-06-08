@@ -1692,7 +1692,8 @@ ul#nav li.current a:after {
 	position: relative;
 	font-size: 13px;
 	line-height: 15px;
-	color: #FFFFFF;
+	color: #10455b;
+	font-weight:bold;
 }
 
 #team-wrapper .member-pic {
