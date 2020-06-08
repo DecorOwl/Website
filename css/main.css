@@ -1746,8 +1746,13 @@ ul#nav li.current a:after {
 }
 
 #team-wrapper .member-social li a {
-	color: #FFFFFF;
+	color: black;
 }
+
+#team-wrapper .member-social li a:hover {
+	color: #ffaf20;
+}
+
 
 /* media queries:
 /* .team / #team-wrapper */
