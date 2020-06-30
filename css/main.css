@@ -1439,6 +1439,7 @@ ul#nav li.current a:after {
 	
 	#home{
 		max-height:auto;
+		margin: 72px 0 24px;
 	}
 
 }
