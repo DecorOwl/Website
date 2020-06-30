@@ -1364,6 +1364,10 @@ ul#nav li.current a:after {
 		font: 16px/1.9 "merriweather-light", sans-serif;
 		width: 85%;
 	}
+	
+	#home{
+		min-height: auto;
+	}
 
 }
 
