@@ -373,7 +373,6 @@ img.pull-left {
 #homeheader span{
 		font: 49px/1.3 "raleway-bold", sans-serif;
 		display: inline-block;
-		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 	}
 /*Start page end */
 
@@ -442,7 +441,54 @@ header.opaque .about-nav {
 	font-family:Brush Script MT, Brush Script Std, cursive;
 	line-height:1.6;
  }
+ 
 
+@media only screen and (max-width:1024px) {
+#Latter{
+width: 100%;
+font: 44px/1.3 "raleway-bold", sans-serif;
+margin-left: auto;
+margin-right: auto;	
+}
+}
+
+@media only screen and (max-width:768px) {
+#Latter{
+	width: 100%;
+font: 44px/1.3 "raleway-bold", sans-serif;
+margin-left: auto;
+margin-right: auto;	
+}
+}
+
+@media only screen and (max-width:600px) {
+#Latter{
+width: 100%;
+font: 44px/1.3 "raleway-bold", sans-serif;
+margin-left: auto;
+margin-right: auto;	
+}	
+}
+
+@media only screen and (max-width:480px) {
+#Latter{
+width: 100%;
+font: 44px/1.3 "raleway-bold", sans-serif;
+margin-left: auto;
+margin-right: 50px;	
+}	
+	
+}
+
+@media only screen and (max-width:400px) {
+#Latter{
+width: 100%;
+font: 44px/1.3 "raleway-bold", sans-serif;
+margin-left: auto;
+margin-right: auto;	
+
+}
+}
 /*
 /* 03. =Preloader
 /* =================================================================== */
@@ -718,6 +764,7 @@ hr {
 	padding: 50px 30px;
 	border: 2px solid transparent;
 	border-radius: 8px;
+	height:600px;
 }
 
 .card .icon {
@@ -821,6 +868,11 @@ hr {
 	width: 120px;
 	text-align: left;
 }
+@media only screen and (max-width:1024px) {
+	.card-container .card {
+		flex-wrap:wrap;
+	}
+}
 
 @media only screen and (max-width:768px) {
 	.section-head {
@@ -836,6 +888,9 @@ hr {
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.card-container .card {
+		flex-wrap:wrap;
+	}
 
 }
 
@@ -844,14 +899,20 @@ hr {
 		font: 17px/33px "merriweather-light", serif;
 		width: auto;
 	}
-
+	
+	.card-container .card {
+		flex-wrap:wrap;
+	}
 }
 
 @media only screen and (max-width:400px) {
 	.section-head [class*="column"] {
 		padding: 0;
 	}
-
+	
+	.card-container .card {
+		flex-wrap:wrap;
+	}
 }
 
 
@@ -876,7 +937,7 @@ header {
 }
 header.opaque {
 	background: #10455B;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	
 }
 
 /* header logo */
@@ -947,7 +1008,7 @@ header .header-social li a:hover {
 @media only screen and (max-width:768px) {
 	header {
 		background: black;
-		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		
 	}
 
 	header .row {
@@ -1142,7 +1203,7 @@ ul#nav li.current a:after {
 		float: none;
 		height: auto;
 		text-align: left;
-		border-bottom: 1px dotted rgba(200, 200, 200, 0.1);
+		
 		padding: 6px 0;
 	}
 
@@ -1276,7 +1337,7 @@ ul#nav li.current a:after {
 #hero-slider .slides .flex-caption h1 span,
 #hero-slider .slides .flex-caption h1 a {
 	display: inline-block;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	
 }
 
 /* for oldIE - IE9 */
@@ -1311,7 +1372,7 @@ ul#nav li.current a:after {
 
 	#hero-slider {
 		text-align: center;
-		margin: 102px 0 36px;
+		margin: 102px 0 36px;	
 	}
 
 	#hero-slider .slides .flex-caption {
@@ -1417,7 +1478,33 @@ ul#nav li.current a:after {
 	#hero-slider .slides .flex-caption h3 {
 		width: auto;
 	}
-
+	
+	#home{
+		max-height:auto;
+	}
+	
+	#features 
+	{
+		display:flex;
+		flex-wrap:wrap;
+	}
+	
+	#features .card-container .card{
+		width:full;
+		font: 36px/1.3 "raleway-bold", sans-serif;
+		flex-wrap:wrap;
+	}
+	
+	#home
+	{
+			flex-wrap:wrap;
+	}
+	
+	#footer
+	{
+			
+	}
+	
 }
 
 @media only screen and (max-width:400px) {
@@ -1441,6 +1528,15 @@ ul#nav li.current a:after {
 		max-height:auto;
 		margin: 72px 0 24px;
 	}
+	
+	#features 
+	{
+		display:flex;
+		flex-wrap:wrap;
+		margin: 72px 0 24px;
+	}
+	
+	
 
 }
 
@@ -1546,7 +1642,9 @@ ul#nav li.current a:after {
 	padding-top: 120px;
 }
 
-
+.flex-container{
+	flex-wrap:wrap;	
+}
 /*
 /* 09. =services
 /* =================================================================== */
@@ -2087,7 +2185,7 @@ ul#nav li.current a:after {
 	padding-top: 120px;
 	padding-bottom: 138px;
 	overflow: hidden;
-	border-bottom: 1px solid #15191d;
+	
 }
 /* contact form */
 #testy form {
@@ -2148,7 +2246,6 @@ input[type="email"],
 	padding-top: 120px;
 	padding-bottom: 138px;
 	overflow: hidden;
-	border-bottom: 1px solid #15191d;
 }
 
 #contact h3 {
@@ -2179,6 +2276,7 @@ input[type="email"],
 	#contact .right {
 		padding-left: 30px;
 	}
+	
 
 }
 
@@ -2461,6 +2559,10 @@ footer .social-links li:first-child {
 	footer .social-links li {
 		margin-left: 18px;
 	}
+	
+	footer .footer-logo .mii-logo{
+		align:center;
+	}
 
 }
 
@@ -2472,7 +2574,10 @@ footer .social-links li:first-child {
 	footer .social-links li {
 		margin-left: 14px;
 	}
-
+	
+	footer .footer-logo .mii-logo{
+		align:center;
+	}
 }
 
 @media only screen and (max-width:400px) {
@@ -2483,7 +2588,9 @@ footer .social-links li:first-child {
 	footer .social-links li {
 		margin-left: 12px;
 	}
-
+	footer .footer-logo .mii-logo{
+		align:center;
+	}
 }
 
 @media only screen and (max-width:350px) {
@@ -2494,7 +2601,10 @@ footer .social-links li:first-child {
 	footer .social-links li {
 		margin-left: 10px;
 	}
-
+	
+	footer .footer-logo .mii-logo{
+		align:center;
+	}
 }
 
 /* go to top button
