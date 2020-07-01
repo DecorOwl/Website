@@ -871,6 +871,20 @@ hr {
 @media only screen and (max-width:1024px) {
 	.card-container .card {
 		flex-wrap:wrap;
+		height:auto;
+		margin-bottom:30px;
+	}
+	
+	.card-row .card-container {
+		max-width:100%;
+	}
+	
+	.card-content .card-text {
+		font-size: 12px;
+	}
+	
+	.card-content .card-title {
+		font-size: 20px;
 	}
 }
 
@@ -2550,6 +2564,26 @@ footer .social-links li:first-child {
 }
 
 /* media queries - .social-links */
+@media only screen and (max-width:1024px) {
+	#footer
+	{
+		width:90%;
+	}
+	
+	footer .social-links {
+		font-size: 32px;
+	}
+
+	footer .social-links li {
+		margin-left: 18px;
+	}
+	
+	footer .footer-logo .mii-logo{
+		margin-left: -20px;
+		align:center;
+	}
+
+}
 
 @media only screen and (max-width:600px) {
 	footer .social-links {
@@ -2561,6 +2595,7 @@ footer .social-links li:first-child {
 	}
 	
 	footer .footer-logo .mii-logo{
+		margin-left: -15px;
 		align:center;
 	}
 
@@ -2576,6 +2611,7 @@ footer .social-links li:first-child {
 	}
 	
 	footer .footer-logo .mii-logo{
+		margin-left: -15px;
 		align:center;
 	}
 }
@@ -2589,6 +2625,7 @@ footer .social-links li:first-child {
 		margin-left: 12px;
 	}
 	footer .footer-logo .mii-logo{
+		margin-left: -15px;
 		align:center;
 	}
 }
@@ -2603,6 +2640,7 @@ footer .social-links li:first-child {
 	}
 	
 	footer .footer-logo .mii-logo{
+		margin-left: -15px;
 		align:center;
 	}
 }
