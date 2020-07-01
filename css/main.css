@@ -444,17 +444,33 @@ header.opaque .about-nav {
  
 
 @media only screen and (max-width:1024px) {
+
+#AboutHome{
+	width:100%;
+}
 #Latter{
 width: 100%;
-font: 44px/1.3 "raleway-bold", sans-serif;
-margin-left: auto;
-margin-right: auto;	
+}
+
+#Latter h3
+{
+  margin-left:-90px;	
+}
+
+#Latter h2{
+	margin-left:-90px;
+	text-align:justify;
+}
+
+#Latter h1
+{
+	margin-left:-90px;
 }
 }
 
 @media only screen and (max-width:768px) {
 #Latter{
-	width: 100%;
+width: 100%;
 font: 44px/1.3 "raleway-bold", sans-serif;
 margin-left: auto;
 margin-right: auto;	
