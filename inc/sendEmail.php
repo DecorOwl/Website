@@ -63,6 +63,5 @@ if($_POST) {
 		echo $response;
 
 	} # end if - there was a validation error
-
 }
 ?>
