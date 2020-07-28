@@ -275,35 +275,35 @@
       	<div id="contact-form" class="six columns tab-whole left">
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action=""  >
+			<form name="contactForm" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScFvSmJ0cJ7i1bkONVMD4rN9Ek82zOciBUqYBWm5F2ygUYRcg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
       			<fieldset>
-
                   <div class="group">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minLength="2" required />
+ 						   <input name="entry.2005620554" type="text" id="entry.2005620554" placeholder="Name" value="" minLength="2" required />
                   </div>
                   <div>
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required />
+	      			   <input name="entry.1045781291" type="email" id="entry.1045781291" placeholder="Email" value="" required />
 	               </div>
                   <div>
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"  value="" />
+	     				   <input name="entry.94217820" type="text" id="entry.94217820" placeholder="Subject"  value="" />
 	               </div>
                   <div>
-	                 	<textarea name="contactMessage"  id="contactMessage" placeholder="message" rows="10" cols="50" required ></textarea>
+	                 	<textarea name="entry.839337160"  id="entry.839337160" placeholder="message" rows="10" cols="50" required ></textarea>
 	               </div>
                   <div>
-                     <button class="submitform">Submit</button>
+                     <button name="submit_btn" class="submitform">Submit</button>
                      <div id="submit-loader">
                         <div class="text-loader">Sending...We are happy to see you soon.</div>
        				      <div class="s-loader">
 								  	<div class="bounce1"></div>
 								  	<div class="bounce2"></div>
 								  	<div class="bounce3"></div>
-								</div>
-							</div>
+						</div>
+					 </div>
                   </div>
-
       			</fieldset>
-      		</form> <!-- Form End -->
+				<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){}"></iframe>
+      		</form>
+			<!-- Form End -->
 
             <!-- contact-warning -->
             <div id="message-warning"></div>
