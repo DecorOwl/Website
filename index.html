@@ -20,14 +20,17 @@
    <link rel="stylesheet" href="css/base.css">
    <link rel="stylesheet" href="css/vendor.min.css">
    <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/swiper.min.css">
 
    <!-- script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
+	<script src="js/Testimonial.js"></script>
 
    <!-- favicons
 	================================================== -->
 	<link rel="shortcut icon" href="favicon.png" >
+
 
 </head>
 
@@ -93,12 +96,12 @@
 				<!---<tr>
 					<td>
 						<div id="android">
-							<a class="smoothscroll" title="Back to Top" href="#hero">Download Android Application</a>
+							<a class="smoothscroll"  href="">Download Android Application</a>
 						</div>
 					</td>
 					<td>
 					</td>
-				</tr>--->
+				</tr>--->	
 				</table>
 
 	      </div> <!-- end twelve columns-->
@@ -109,7 +112,7 @@
 
 
    <!-- portfolio
-   ================================================== -->
+   ==================	================================== -->
    <section id="features">
 
      <div class="container">
@@ -119,8 +122,6 @@
        </div>
 
        <div class="card-row clearfix flex-container">
-
-       
 
          <div class="card-container">
 
@@ -195,11 +196,8 @@
    </section> <!-- end services --> 
 
  <!-- Our Vision
-   ================================================== --> 
-
-			
-
-<section id="hero">	
+   ================================================== -->
+	<section id="hero">	
 	<div class="card-container-2">
 		<div class="section-title">
 			<h1>Our Vision</h1>
@@ -211,7 +209,7 @@
 
 	    <div class="twelve columns hero-container">
 				
-			   	   <!-- hero-slider start-->
+			 <!-- hero-slider start-->
 			<div id="hero-slider" class="flexslider">
 
 			<ul class="slides">
@@ -221,8 +219,7 @@
 			   <div class="flex-caption">
 					<h1 class="">#MakeInIndia</h1>
 
-					<h3 class="">We support Indigenisation and #MakeInIndia movement. We envision MSME's to thrive through our platfrom in 21st cnetury competitive
- environment.</h3>			   
+					<h3 class="">We support Indigenisation and #MakeInIndia movement. We envision MSME's to thrive through our platfrom in 21st cnetury competitive environment.</h3>		   
 				</div>
 			</li>	
 
@@ -260,9 +257,7 @@
 
    <!-- contact form
    ================================================== -->
-  
-
-<section id="testy">
+	<section id="testy">
 		<div class="container">
        <div class="section-title">
          <h1>Get in Touch with Us</h1>
@@ -290,23 +285,13 @@
 	                 	<textarea name="entry.839337160"  id="entry.839337160" placeholder="message" rows="5" cols="40"></textarea>
 	               </div>
                   <div>
-                     <button name="submit_btn" class="submitform" onclick="SubmitScript();">Submit</button>
-                     <div id="submit-loader">
-                        <div class="text-loader">Sending...We are happy to see you soon.</div>
-       				      <div class="s-loader">
-								  	<div class="bounce1"></div>
-								  	<div class="bounce2"></div>
-								  	<div class="bounce3"></div>
-						</div>
-					 </div>
+                     <button name="submit_btn" class="submitform">Submit</button>
                   </div>
       			</fieldset>
-				<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){}"></iframe>
+				<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){SubmitScript();}"></iframe>
       		</form>
 			<!-- Form End -->
 
-            <!-- contact-warning -->
-            <div id="message-warning"></div>
             <!-- contact-success -->
       		<div id="message-success">
                <i class="icon-ok"></i>Your message was sent, thank you!<br />
@@ -314,17 +299,83 @@
          </div>
 
          <div class="six columns tab-whole right">
-
-            <p class="lead">For more infromation you can contact us on </p> <h3>info@decorowl.co</h3> <h3>+91-776999 8842</h3> <p class="lead">or you can fill the form given aside <br> stay tunned for more latest updates!!
-		</p>
-
+            <p class="lead">For more infromation you can contact us on </p> <h3>info@decorowl.co</h3> <h3>+91-776999 8842</h3> 
+			<p class="lead">or you can fill the form given aside <br> 
+			stay tunned for more latest updates!!</p>
          </div>
 
       </div> <!-- end row -->
 
    </section>  <!-- end contact -->
-
-   <!-- Contact form is over here -->
+	<!-- Contact form is over here -->
+   
+   <!-- Testimonial
+   ================================================== -->
+	<!---
+	<section id="reviews">
+	<div class="container">
+		<div class="section-title">
+			<h1>Our Review is our experience</h1>
+			<div class="line"/>
+		</div>
+	</div>
+	
+	
+	<div class="swiper-container">
+    <div class="swiper-wrapper">
+	
+	<!--- Slider 1 Start--->
+	<!---
+      <div class="swiper-slide">
+			<img src="images/team/member03-k.jpg"/>
+	  <quote>
+        <blockquote>
+          <p> Bespoke occupy cred seitan. Austin street art freegan Truffaut leggings aesthetic, salvia chia Brooklyn flexitarian. Single-origin coffee before they sold out health goth, cornhole irony keffiyeh Austin taxidermy mlkshk blog trust fund banh mi you probably haven't heard of them.</p>
+          <cite>
+            <span> Parth Bhalodiya
+			<br>
+            DecorOwl
+	  </div>
+	  <!--- Slider 1 End--->
+	  
+	  <!--- Slider 2 Start--->
+	  <!---
+      <div class="swiper-slide">
+	  <iframe id="Testi_Video" src="https://www.youtube.com/embed/BzNFNiVWH3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </div>
+	  <!--- Slider 2 End--->
+	  
+	  <!--- Slider 3 Start--->
+	  <!---
+      <div class="swiper-slide">
+		<quote>
+        <blockquote>
+          <p> Bespoke occupy cred seitan. Austin street art freegan Truffaut leggings aesthetic, salvia chia Brooklyn flexitarian. Single-origin coffee before they sold out health goth, cornhole irony keffiyeh Austin taxidermy mlkshk blog trust fund banh mi you probably haven't heard of them.</p>
+		<cite>
+            <span> Parth Bhalodiya
+			<br>
+            DecorOwl
+		</div>
+		<!--- Slider 3 End--->
+		
+     <!--- 
+    </div>
+    <!-- Add Pagination -->
+	<!---
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+	<!---
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+	</div>
+	
+	</section>
+	
+	--->
+	
+	<!---- End of Testimonial reviews--->
+	   
+   
    <!-- Footer
    ================================================== -->
    <footer>
@@ -335,10 +386,10 @@
 
 				<ul class="social-links">
                <li><a href="https://www.facebook.com/DecorOwl-126307555836643"><i class="fa fa-facebook-square"></i></a></li>
-               <!--<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>-->
+               <li><a href="https://www.instagram.com/decorowl_"><i class="fa fa-instagram"></i></a></li>
+               <!--<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>-->
                <li><a href="https://www.youtube.com/channel/UCSXjT-nGLqF7fmxkvOS3pDQ"><i class="fa fa-youtube-play"></i></a></li>
-               <!--<li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+               <!--<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
                <li><a href="#"><i class="fa fa-flickr"></i></a></li>
                <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
             </ul>
@@ -385,7 +436,23 @@
    <script src="js/jquery.magnific-popup.min.js"></script>
    <script src="js/main.js"></script>
    <script src="js/scrollUp_Contact.js"></script>
-
+   
+   <script src="js/swiper.min.js"></script>
+	<script>
+	var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+	</script>
 </body>
 
 </html>
