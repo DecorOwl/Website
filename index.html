@@ -21,6 +21,7 @@
    <link rel="stylesheet" href="css/vendor.min.css">
    <link rel="stylesheet" href="css/main.css">
    <link rel="stylesheet" href="css/swiper.min.css">
+   <link rel="stylesheet" href="css/video.min.css">
 
    <!-- script
    ================================================== -->
@@ -303,7 +304,25 @@
             <p class="lead">For more infromation you can contact us on </p> <h3>info@decorowl.co</h3> <h3>+91-776999 8842</h3> 
 			<p class="lead">or you can fill the form given aside <br> 
 			stay tunned for more latest updates!!</p>
-         </div>
+			
+			
+			<!------ Video In SLider and Video ------------>
+			<iframe id="video-YT" width="560" height="315" src="https://www.youtube.com/embed/fKdqJCrkczY?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+			<!--- slidse--->
+			<!---
+				<div class="video-container">
+				<div class="video-wrapper">
+					<div class="video-slide" onclick="videoUrl('https://www.youtube.com/embed/0gosur3db5I')"><img src='images/video/1.png'></div>
+					<div class="video-slide" onclick="videoUrl('https://www.youtube.com/embed/_kUrW9SEaJc')"><img src='images/video/2.png'></div>
+				</div>
+				 <!-- Add Pagination -->
+				<!---
+				<div class="video-pagination"></div>
+				</div>		
+			--->	
+				
+		 </div><!--- Fix column Right Container over---->
 
       </div> <!-- end row -->
 
@@ -398,10 +417,11 @@
 
             <div class="info">
 
-            	<div class="footer-logo"> </div>
-				<div class="mii-logo"></div>
-
-	            <p>
+            	<div class="mii-logo"><img src="images/Logo&Name.png"></div>
+            	<div class="mii-logo"><img src="images/mii.png"></div>
+	            
+				<p>
+				
 	            </p>
 
 	         </div>
@@ -437,6 +457,7 @@
    <script src="js/main.js"></script>
    <script src="js/scrollUp_Contact.js"></script>
    <script src="js/swiper.min.js"></script>
+   <script src="js/video.min.js"></script>
 	<script>
 	var swiper = new Swiper('.swiper-container', {
       slidesPerView: 1,
@@ -452,6 +473,25 @@
       },
     });
 	</script>
+	
+	<script>
+    var video = new Video('.video-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: '.video-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+  
+  <script>
+	function videoUrl(temp){
+			document.getElementById("video-YT").src = temp;
+	}
+  
+  </script>
+  
 </body>
 
 </html>
