@@ -560,13 +560,13 @@ header.opaque .about-nav {
 
 #Latter
 {
+  position:relative;
   background:#F9F3ED;
   width:100%;
   height:80%;
 }
 
 #Latter h1{
-	position:relative;
 	left: 120px;
 	margin-left:10%;
 	margin-right:30%;
@@ -577,7 +577,6 @@ header.opaque .about-nav {
  }
 
  #Latter h3{
-	position:relative;
 	left: 120px;
 	margin-right:30%;
 	margin-left:10%;
@@ -588,7 +587,6 @@ header.opaque .about-nav {
 
  #Latter h2
  {
-	position:relative;
 	left:120px;
 	margin-right:30%;
 	margin-left:10%;
@@ -600,62 +598,61 @@ header.opaque .about-nav {
  }
  
 
-@media only screen and (max-width:1024px) {
-
-#Latter{
-width: 100%;
+@media only screen and (max-width:600px) {	
+#Latter
+{
+  position:relative;
+  background:#F9F3ED;
+  width:100%;
+  height:100%;
 }
 
-#Latter h3
-{
-  margin-left:-90px;	
+#Latter h1{
+	left: 20px;
+	margin-left:10%;
+	margin-right:10%;
+	color:black;
+	font: 49px/1.3 "raleway-bold", sans-serif;
+	line-height:1.6;
+	font-size:30px;
+ }
+
+ #Latter h3{
+	left: 20px;
+	margin-right:10%;
+	margin-left:10%;
+	color:#5A5151;
+	font-family:Calibri;
+	line-height:1.6;
+	font-size:15px;
+	text-align:justify;
+ }
+
+ #Latter h2
+ {
+	left:20px;
+	margin-right:10%;
+	margin-left:10%;
+	text-align: justify;
+	text-justify: inter-word;
+	color:#5A5151;
+	font-family:Brush Script MT, Brush Script Std, cursive;
+	line-height:1.6;
+	font-size:15px;
+ }
+}
+
+@media only screen and (max-width:350px) {	
+#Latter h1{
+	font-size:25px;
 }
 
 #Latter h2{
-	margin-left:-90px;
-	text-align:justify;
+	font-size:12px;
 }
 
-#Latter h1
-{
-	margin-left:-90px;
-}
-}
-
-@media only screen and (max-width:768px) {
-#Latter{
-width: 100%;
-font: 44px/1.3 "raleway-bold", sans-serif;
-margin-left: auto;
-margin-right: auto;	
-}
-}
-
-@media only screen and (max-width:600px) {
-#Latter{
-width: 100%;
-font: 44px/1.3 "raleway-bold", sans-serif;
-margin-left: auto;
-margin-right: auto;	
-}	
-}
-
-@media only screen and (max-width:480px) {
-#Latter{
-width: 100%;
-font: 44px/1.3 "raleway-bold", sans-serif;
-margin-left: auto;
-margin-right: auto;	
-}	
-	
-}
-
-@media only screen and (max-width:400px) {
-#Latter{
-width: 100%;
-font: 44px/1.3 "raleway-bold", sans-serif;
-margin-left: auto;
-margin-right: auto;	
+#Latter h3{
+	font-size:12px;
 }
 }
 /*
@@ -1605,6 +1602,10 @@ ul#nav li.current a:after {
 		margin-left: auto;
 		margin-right: auto;
 	}
+	#footer
+	{
+	  position:relative;		
+	}
 
 }
 
@@ -1639,7 +1640,8 @@ ul#nav li.current a:after {
 		min-height: auto;
 		width:100%;
 	}
-
+	
+	
 }
 
 @media only screen and (max-width:600px) {
@@ -1708,11 +1710,6 @@ ul#nav li.current a:after {
 	#home
 	{
 			flex-wrap:wrap;
-	}
-	
-	#footer
-	{
-			
 	}
 	
 }
