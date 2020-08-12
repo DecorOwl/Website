@@ -35,7 +35,7 @@
 
 </head>
 
-<body>
+<body onload="startTimer()">
 
 	<!-- header
    ================================================== -->
@@ -77,41 +77,13 @@
    <!-- homepage hero
    ================================================== -->
    <section id="home">
+		<img id="home_img" src="images/Home/Home1.jpg">
+   </section> 
+   <!-- end homepage hero -->
 
-		<div class="row hero-content">
-
-			   <div id="home-slider">
-			   
-			   <table>
-			   <tr>
-					<td>
-						<div id="homeheader"> <h1><span>Decorowl</span>. Best Decore Item<br> in Best Rate from your Best Area.
-						</h1>
-						<h3>Try All Decor Item by just sitting at Home of your<br><u>Local Vendors</u> from your AR supported Device</h3>
-						</div>
-					</td>
-					<td>
-						<!---<iframe id="promo" width="560" height="315" src="https://www.youtube-nocookie.com/embed/fKdqJCrkczY?controls=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>--->
-					</td>
-				</tr>
-				<!---<tr>
-					<td>
-						<div id="android">
-							<a class="smoothscroll"  href="">Download Android Application</a>
-						</div>
-					</td>
-					<td>
-					</td>
-				</tr>--->	
-				</table>
-
-	      </div> <!-- end twelve columns-->
-
-		</div> <!-- end row -->
-
-   </section> <!-- end homepage hero -->
-
-
+	<!---<div id="android">
+		<a class="smoothscroll"  href="">Download Android Application</a>
+	</div>
    <!-- portfolio
    ==================	================================== -->
    <section id="features">
@@ -492,6 +464,33 @@
   
   </script>
   
+  
+	<script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("home_img").src = images[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("home_img").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 1500);
+          }
+
+          var images = [], x = -1;
+          images[0] = "images/Home/Home1_1.jpg";
+		  images[1] = "images/Home/Home2.jpg";
+		  images[2] = "images/Home/Home2_1.jpg";
+          images[3] = "images/Home/Home3.jpg";
+          images[4] = "images/Home/Home4.jpg";
+		  images[5] = "images/Home/Home5.jpg";
+		  images[6] = "images/Home/Home1.jpg";
+      </script>
+
+
 </body>
 
 </html>
