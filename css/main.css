@@ -583,6 +583,7 @@ header.opaque .about-nav {
 	color:#5A5151;
 	font-family:Calibri;
 	line-height:1.6;
+	text-align:justify;
  }
 
  #Latter h2
@@ -597,8 +598,8 @@ header.opaque .about-nav {
 	line-height:1.6;
  }
  
-
-@media only screen and (max-width:600px) {	
+ 
+ @media only screen and (max-width:1050px) {	
 #Latter
 {
   position:relative;
@@ -608,36 +609,38 @@ header.opaque .about-nav {
 }
 
 #Latter h1{
-	left: 20px;
 	margin-left:10%;
 	margin-right:10%;
-	color:black;
-	font: 49px/1.3 "raleway-bold", sans-serif;
 	line-height:1.6;
-	font-size:30px;
  }
 
  #Latter h3{
-	left: 20px;
 	margin-right:10%;
 	margin-left:10%;
-	color:#5A5151;
-	font-family:Calibri;
-	line-height:1.6;
-	font-size:15px;
-	text-align:justify;
  }
 
  #Latter h2
  {
-	left:20px;
 	margin-right:10%;
 	margin-left:10%;
-	text-align: justify;
-	text-justify: inter-word;
-	color:#5A5151;
-	font-family:Brush Script MT, Brush Script Std, cursive;
 	line-height:1.6;
+ }
+
+ }
+ 
+@media only screen and (max-width:600px) {	
+
+
+#Latter h1{
+	font-size:30px;
+ }
+
+ #Latter h3{
+	font-size:15px;
+ }
+
+ #Latter h2
+ {
 	font-size:15px;
  }
 }
