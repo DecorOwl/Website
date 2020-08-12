@@ -557,16 +557,6 @@ header.opaque .about-nav {
 }
 
 /*AboutHome Screen Started*/
-#AboutHome{
-	background: #f9f3ed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	min-height: 630px;
-	width: 100%;
-	text-align: left;
-	position: relative;
-}
 
 #Latter
 {
@@ -612,10 +602,6 @@ header.opaque .about-nav {
 
 @media only screen and (max-width:1024px) {
 
-#AboutHome{
-	width:100%;
-	height:auto;
-}
 #Latter{
 width: 100%;
 }
