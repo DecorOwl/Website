@@ -1018,7 +1018,7 @@ hr {
 	font: 15px/30px "raleway-heavy", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
-	color: #FFFFFF;
+	color: black;
 	margin-bottom: 30px;
 	margin-top: 18px;
 }
@@ -1032,6 +1032,7 @@ hr {
 .section-head p {
 	font: 20px/36px "merriweather-light", serif;
 	width: 95%;
+	text-align:justify;
 }
 
 .section-head:hover h1 + hr {
@@ -1865,6 +1866,11 @@ ul#nav li.current a:after {
 	padding-bottom: 120px;
 }
 
+#how-works img{
+	padding-left:150px;
+	padding-right:150px;
+}
+
 .service-list {
 	margin: 18px -2px 0;
 }
@@ -1886,11 +1892,22 @@ ul#nav li.current a:after {
 	background: rgba(0, 0, 0, 0.1);
 }
 
+@media only screen and (max-width:768px) {
+	#how-works img{
+	padding-left:50px;
+	padding-right:50px;
+}
+}
+
 @media only screen and (max-width:600px) {
 	.service-list .bgrid:hover {
 		background: inherit;
 	}
-
+	
+	#how-works img{
+	padding-left:10px;
+	padding-right:10px;
+}
 }
 
 #services .service-list h3 {
@@ -2906,7 +2923,7 @@ footer .social-links li {
 }
 
 footer .social-links li a {
-	color: rgba(255, 255, 255, 0.1);
+	color: rgba(255, 255, 255, 0.2);
 }
 
 footer .social-links li a:hover {
