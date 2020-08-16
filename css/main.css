@@ -1057,6 +1057,8 @@ hr {
 	}
 	.card-container .card {
 		flex-wrap:wrap;
+		height:835px;
+		word-wrap:break-word;
 	}
 
 }
