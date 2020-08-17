@@ -1120,12 +1120,9 @@ header {
 	-webkit-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
-
-
 }
 header.opaque {
 	background: #10455B;
-	
 }
 
 /* header logo */
