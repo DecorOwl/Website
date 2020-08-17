@@ -1195,7 +1195,7 @@ header .header-social li a:hover {
 
 @media only screen and (max-width:768px) {
 	header {
-		background: black;
+		background: #10455b;
 		
 	}
 
@@ -1373,7 +1373,7 @@ ul#nav li.current a:after {
 
 	/* dropdown nav */
 	#nav-wrap ul#nav {
-		background: #1c212a;
+		background: #275265;
 		padding: 54px 45px 60px 45px;
 		margin: 0;
 		height: auto;
